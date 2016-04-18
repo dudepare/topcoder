@@ -30,7 +30,6 @@ class TestSortness(unittest.TestCase):
 		self.assertEqual( 4.0, self.callFn([5,4,3,2,1]))
 		self.assertEqual( 5.166666666666667,
 		                 self.callFn([1,5,8,7,9,6,10,12,11,3,4,2]))
-		
 
 if __name__ == '__main__':
-	unittest.main()
+	unittest.main(
