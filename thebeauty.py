@@ -6,6 +6,14 @@ import unittest
 
 class TheBeauty:
 
+	def find_alt(self, number):
+		snumber = str(number)
+		result = []
+		for ch in snumber:
+			if ch not in result:
+				result.append(ch)
+		return len(result)
+
 	def find(self, number):
 
 		snumber = set(str(number))
